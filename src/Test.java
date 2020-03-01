@@ -1,6 +1,7 @@
 public class Test {
-    private String gicu;
-    public Test() {
+    public Test(String param) {
+        System.out.println(param);
+
         // this is the best comment ever
     }
 }
